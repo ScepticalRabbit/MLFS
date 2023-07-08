@@ -16,7 +16,6 @@ Implementing the KNN algorithm
 3. Perform a task with the points:
     a) Regression: calculate the average of the k points
     b) Classification: get the majority vote
-
 '''
 
 # Imports
