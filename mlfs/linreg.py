@@ -3,6 +3,6 @@
 TODO
 """
 
-class KNN:
+class LinReg:
     def __init__(self):
-        print('KNN Init')
+        print('LinReg Init')
