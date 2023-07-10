@@ -21,7 +21,7 @@ Fit
 1. Initialise weights and bias as zero
 2. Given a set of data
     a) calculate error
-    b) use gradient descent to work out wiehgt/bias
+    b) use gradient descent to work out wieght/bias
     c) repeat n times
     
 Predict
@@ -36,8 +36,7 @@ class LinReg:
         self.n_iters = n_iters
         self.weights = None
         self.bias = None
-        
-        
+            
     def fit(self, X, y):
         n_samps, n_feats = X.shape
         self.weights = np.zeros(n_feats)

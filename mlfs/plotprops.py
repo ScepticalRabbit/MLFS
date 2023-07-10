@@ -19,7 +19,7 @@ class PlotProps:
         
         self.resolution = 300
         
-        self.font_name = 'Arial'
+        self.font_name = 'Liberation Sans'
         self.font_def_weight = 'normal'
         self.font_def_size = 10
         self.font_tick_size = 9
