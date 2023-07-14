@@ -8,8 +8,9 @@ from .linreg import LinReg
 from .logreg import LogReg
 from .dectree import DecTree
 from .randforest import RandForest
+from .naivebayes import NaiveBayes
 
 from .plotprops import PlotProps
 
 
-__all__ = ["KNN" "LinReg" "LogReg" "DecTree" "RandForest" "PlotProps"]
+__all__ = ["KNN" "LinReg" "LogReg" "DecTree" "RandForest" "NaiveBayes" "PlotProps"]
