@@ -30,9 +30,9 @@ X, y = bc.data, bc.target
 test_frac = 0.2 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=test_frac, random_state=1234)
 
-dt_clf = mlfs.RandForest()
-dt_clf.fit(X_train, y_train)
-y_pred = dt_clf.predict(X_test)
+rf_clf = mlfs.RandForest()
+rf_clf.fit(X_train, y_train)
+y_pred = rf_clf.predict(X_test)
 
 acc = accuracy(y_pred,y_test)
 print("Accuracy = {}".format(acc))
