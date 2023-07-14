@@ -9,6 +9,7 @@ from .logreg import LogReg
 from .dectree import DecTree
 from .randforest import RandForest
 from .naivebayes import NaiveBayes
+from .pca import PCA
 
 from .plotprops import PlotProps
 

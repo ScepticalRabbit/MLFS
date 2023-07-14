@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 """
 ===============================================================================
-MLFS: ? Algorithm
+MLFS: Naive Bayes Algorithm
 ===============================================================================
 
 Link to video tutorial:
-
+https://www.youtube.com/watch?v=TLInuAorxqE&list=PLcWfeUsAys2k_xub3mHks85sBHZvg24Jd&index=7
 """
 import numpy as np
 

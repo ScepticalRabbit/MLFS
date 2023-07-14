@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 """
 ===============================================================================
-MLFS: Temp Tester
+MLFS: Naive Bayes Tester
 ===============================================================================
 
 Link to video tutorial:
-
+https://www.youtube.com/watch?v=TLInuAorxqE&list=PLcWfeUsAys2k_xub3mHks85sBHZvg24Jd&index=7
 """
 # Import external packages
 import numpy as np
@@ -26,7 +26,7 @@ pp = mlfs.PlotProps()
 
 # Load breast cancer data set from SciKitLearn
 X, y = datasets.make_classification(
-    n_samples=100, n_features=10, n_classes=2, random_state = 123
+    n_samples=1000, n_features=10, n_classes=2, random_state = 123
     )
 X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size=0.2, random_state=123
