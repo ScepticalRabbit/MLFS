@@ -10,8 +10,9 @@ from .dectree import DecTree
 from .randforest import RandForest
 from .naivebayes import NaiveBayes
 from .pca import PCA
+from .perceptron import Perceptron
 
 from .plotprops import PlotProps
 
 
-__all__ = ["KNN" "LinReg" "LogReg" "DecTree" "RandForest" "NaiveBayes" "PlotProps"]
+__all__ = ["KNN" "LinReg" "LogReg" "DecTree" "RandForest" "NaiveBayes" "Perceptron" "PlotProps"]
