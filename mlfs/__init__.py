@@ -11,8 +11,9 @@ from .randforest import RandForest
 from .naivebayes import NaiveBayes
 from .pca import PCA
 from .perceptron import Perceptron
+from .svm import SVM
 
 from .plotprops import PlotProps
 
 
-__all__ = ["KNN" "LinReg" "LogReg" "DecTree" "RandForest" "NaiveBayes" "Perceptron" "PlotProps"]
+__all__ = ["KNN" "LinReg" "LogReg" "DecTree" "RandForest" "NaiveBayes" "Perceptron" "SVM" "PlotProps"]
